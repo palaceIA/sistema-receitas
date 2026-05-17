@@ -1,4 +1,3 @@
-````markdown
 # Sistema de Receitas
 
 Sistema web para cadastro e gerenciamento de receitas desenvolvido com HTML, CSS e JavaScript.  
