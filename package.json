@@ -1,0 +1,26 @@
+{
+    "name": "sistema-receitas",
+    "version": "1.0.0",
+    "description": "Sistema de gerenciamento de receitas com Node.js, Express e Supabase",
+    "main": "api.js",
+    "scripts": {
+        "start": "node api.js",
+        "dev": "nodemon api.js"
+    },
+    "keywords": [
+        "receitas",
+        "api",
+        "express",
+        "supabase"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.18.2",
+        "cors": "^2.8.5",
+        "@supabase/supabase-js": "^2.38.4"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    }
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Receitas</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <h1>Sistema de Receitas</h1>
+
+    <div class="container">
+        <div class="form-area">
+            <h2>Adicionar Receita</h2>
+            <form id="form">
+                <input type="text" id="nome" placeholder="Nome da receita" required>
+                <textarea id="ingredientes" placeholder="Ingredientes" rows="3" required></textarea>
+                <textarea id="modo_preparo" placeholder="Modo de preparo" rows="3" required></textarea>
+                <input type="number" id="tempo_preparo" placeholder="Tempo (minutos)" min="1" required>
+                <button type="submit">Adicionar</button>
+            </form>
+        </div>
+
+        <div class="receitas-area">
+            <h2>Receitas Cadastradas</h2>
+            <div id="receitas"></div>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
